@@ -1,17 +1,19 @@
 #!/usr/bin/env node
 
-var resolve = require('./main').resolve,
-	chalk   = require('chalk');
+var resolve = require('../index.js').resolve,
+	chalk = require('chalk');
 
-if (process.argv.length < 3) {
+if (process.argv.length < 3)
+{
 	console.error(chalk.red('USAGE: pd-resolve alert-id'));
 	process.exit(1);
 }
 
 var id = process.argv[2];
-resolve(id, function(err, response) {
-
-	if (err) {
+resolve(id, function(err, response)
+{
+	if (err)
+	{
 		console.error(chalk.red(err.message));
 		process.exit(1);
 	}
