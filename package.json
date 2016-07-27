@@ -1,26 +1,26 @@
 {
   "name": "@ceejbot/pagerduty-trigger",
   "description": "trigger a pagerduty alert",
-  "version": "1.0.0",
-  "author": "Stephanie Snopek",
+  "version": "1.0.1",
+  "author": "Forked by Ceejbot <ceejceej@gmail.com>",
   "bin": {
     "pd-trigger": "bin/trigger.js",
     "pd-resolve": "bin/resolve.js"
   },
   "bugs": {
-    "url": "https://github.com/snopeks/pagerduty-trigger/issues"
+    "url": "https://github.com/ceejbot/pagerduty-trigger/issues"
   },
   "dependencies": {
     "chalk": "~1.1.3",
-    "request": "~2.73.0"
+    "request": "~2.74.0"
   },
   "devDependencies": {
     "mocha": "~2.5.3",
     "must": "~0.13.2",
-    "nyc": "~7.0.0"
+    "nyc": "~7.1.0"
   },
   "email": "stephanie@npmjs.com",
-  "homepage": "https://github.com/snopeks/pagerduty-trigger#readme",
+  "homepage": "https://github.com/ceejbot/pagerduty-trigger#readme",
   "keywords": [
     "pagerduty"
   ],
@@ -28,7 +28,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snopeks/pagerduty-trigger.git"
+    "url": "git+https://github.com/ceejbot/pagerduty-trigger.git"
   },
   "scripts": {
     "lint": "eslint .",
